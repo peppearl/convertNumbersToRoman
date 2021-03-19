@@ -7,6 +7,6 @@ test('3999  est égal à MMMCMXCIX', () => {
 });
 test('MMMCMXCIX  est égal à 3999', () => {
     expect(convertToNumber('MMMCMXCIX')).toBe(3999);
-    expect(convertToRoman('MCCXLV')).toBe(1245);
-    expect(convertToRoman('LVI')).toBe(56);
+    expect(convertToNumber('MCCXLV')).toBe(1245);
+    expect(convertToNumber('LVI')).toBe(56);
 });

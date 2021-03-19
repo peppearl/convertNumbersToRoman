@@ -13,39 +13,6 @@ convertToRoman = (num) => {
     return romanized;
 };
 
-/*
-convertToRoman2 = (num) => {
-    let numberValue = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
-    let romanValue = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
-
-    const values = {
-        1000 : "M",
-        900 : "CM",
-        500 : "D",
-        400 : "CD",
-        100 : "C",
-        90 : "XC",
-        50 : "L",
-        40 : "XL",
-        10 : "X",
-        9 : "IX",
-        5 : "V",
-        4 : "IV",
-        1 : "I"
-    }
-
-    let romanized = "";
-
-    for (let index = 0; index < numberValue.length; index++) {
-        while (numberValue[index] <= num) {
-            romanized += romanValue[index];
-            num -= numberValue[index];
-        }
-    }
-    return romanized;
-};
-*/
-
 convertToNumber = (string) => {
     const values = {
         'I': 1,

@@ -1,3 +1,6 @@
+//To test automatically
+//jest --watchAll
+
 require('./numbers');
 
 test('3999  est égal à MMMCMXCIX', () => {
